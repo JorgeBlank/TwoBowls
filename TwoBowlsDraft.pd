@@ -1,0 +1,5 @@
+#N canvas 738 54 450 300 10;
+#X obj 16 27 clockins;
+#X obj 18 124 playit;
+#X obj 92 89 QandFreq;
+#X obj 18 89 NoiseGen;

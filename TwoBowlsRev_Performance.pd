@@ -1,0 +1,12 @@
+#N canvas 26 50 1061 658 10;
+#X obj 16 27 clockinsrev;
+#X obj 18 89 NoiseGenrev;
+#X obj 108 88 QandFreqrev;
+#X obj 18 115 playitrev;
+#X obj 700 56 stopwatch;
+#X obj 700 11 r stop;
+#X obj 805 35 r reset;
+#X obj 700 33 r start;
+#X connect 5 0 4 0;
+#X connect 6 0 4 1;
+#X connect 7 0 4 0;

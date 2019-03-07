@@ -1,0 +1,14 @@
+#N canvas 189 -12 1061 658 10;
+#X obj 5 3 cnv 15 1000 1000 empty empty Second_Son_of_a_Waterbull 20
+12 0 14 -4160 -258113 0;
+#X obj 16 27 clockinsrev;
+#X obj 18 89 NoiseGenrev;
+#X obj 108 88 QandFreqrev;
+#X obj 18 115 playitrev;
+#X obj 700 56 stopwatch;
+#X obj 700 11 r stop;
+#X obj 805 35 r reset;
+#X obj 700 33 r start;
+#X connect 6 0 5 0;
+#X connect 7 0 5 1;
+#X connect 8 0 5 0;
